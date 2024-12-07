@@ -1,5 +1,6 @@
 ---
 
-- hosts: targets
+- hosts: localhost
+  connection: local
   roles:
     - fail2ban-blocklist-uninstall
